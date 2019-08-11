@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Blinker|Nanum+Gothic&display=swap');
+
+/* Reset */
+html, body, div, h1, h2, h3, h4, h5, h6, p, a,
+img, li, aside, footer, nav, section {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+}
+
+body {
+  background-color: #F6EDCF;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #F67E7D;
+  font-family: "Blinker", sans-serif;
+}
+
+nav {
+  background-color: #FFB997;
+  border-bottom: 5px solid #A72461;
+  text-align: right;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  padding: 2px;
+  display: inline;
+}
+
+nav a {
+  color: #0B032D;
+  padding: 6px 20px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #F6EDCF
+}
+
+.hero {
+  height: 600px;
+  background: url("../images/hero.jpg") no-repeat center top;
+  background-size: cover;
+}
+
+.hero h1 {
+  color: #61234E;
+  font-size: 5em;
+}
+
+.hero h2 {
+  color: #A72461;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.hero p {
+  color: #A72461;
+  font-size: 1.25em;
+}
+
+.hero-text {
+  padding-top: 125px;
+  width: 50%
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 75% auto;
+}
+
+.drinks {
+  margin: 0;
+  padding: 0;
+}
+
+.drinks img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 20px;
+  float: left;
+}
+
+.drinks h2 {
+  color: #61234E;
+  font-size: 3em;
+  margin: 5px;
+}
+
+.drinks ul {
+  list-style-type: none;
+}
+
+.drinks p {
+  font-size: 1.3em;
+}
+
+.drinks .head {
+  font-size: 2em;
+}
+
+.drinks .item {
+  border-top: 1px dotted #A72461;
+  display: block;
+  padding-top: 10px;
+  margin-bottom: 60px;
+}
+
+.sidebar{
+  background-color: #FFB997;
+  font-size: 1.5em;
+}
+
+.sidebar h2 {
+  color: #A72461;
+  font-size: 2em;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar ul li + li {
+  margin-top: 50px
+}
+
+footer {
+  background-color: #843B62;
+  border-top: 5px solid #0B032D;
+  height: 75px;
+}
+
+footer p {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer a:hover {
+  background-color: #F9BCDD;
+}
+
+footer i {
+  color: white;
+  padding: 2px 10px;
+}
